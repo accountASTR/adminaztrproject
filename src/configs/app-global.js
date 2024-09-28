@@ -1,5 +1,5 @@
 export const PROJECT_NAME = 'Uzmart marketplace';
-export const BASE_URL = 'https://api.uzmart.org';
+export const BASE_URL = 'https://adminaztrproject-0ba7d5b16bef.herokuapp.com/';
 export const WEBSITE_URL = 'https://uzmart.org';
 export const api_url = BASE_URL + '/api/v1/';
 export const api_url_admin = BASE_URL + '/api/v1/dashboard/admin/';
