@@ -10,13 +10,13 @@ importScripts('https://cdn.jsdelivr.net/npm/idb-keyval@6/dist/umd.js');
 
 // Initialize the Firebase app in the service worker by passing the generated config
 const firebaseConfig = {
-  apiKey: '',
-  authDomain: '',
-  projectId: '',
-  storageBucket: '',
-  messagingSenderId: '',
-  appId: '',
-  measurementId: '',
+  apiKey: "AIzaSyDLov3GUpZYZ7EWokOYh-fe_9uz6LYxwfU",
+  authDomain: "aztrproject.firebaseapp.com",
+  projectId: "aztrproject",
+  storageBucket: "aztrproject.appspot.com",
+  messagingSenderId: "560384748217",
+  appId: "1:560384748217:web:349515f18c9c2c26680968",
+  measurementId: "G-K7M9Z8HXHV"
 };
 
 firebase.initializeApp(firebaseConfig);
