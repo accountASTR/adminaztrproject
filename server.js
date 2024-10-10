@@ -1,6 +1,23 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+const apiUrl = process.env.REACT_APP_API_URL;
+
+// Example of fetching data from your Laravel backend
+fetch(`${apiUrl}/endpoint`, {
+  method: 'GET',
+  headers: {
+    'Content-Type': 'application/json',
+  },
+})
+  .then(response => response.json())
+  .then(data => console.log(data))
+  .catch(error => console.error('Error:', error));
+
+  fetch(`${process.env.REACT_APP_API_URL}/data`)
+  .then(response => response.json())
+  .then(data => console.log(data)); // This runs on the frontend
+
 
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, 'build')));
