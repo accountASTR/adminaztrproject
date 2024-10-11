@@ -1,5 +1,5 @@
 export const PROJECT_NAME = 'Uzmart marketplace';
-export const BASE_URL = 'const BASE_URL = "https://backendaztrproject-702819bff886.herokuapp.com"';
+export const BASE_URL = "https://backendaztrproject-702819bff886.herokuapp.com";
 export const WEBSITE_URL = 'https://uzmart.org';
 export const api_url = BASE_URL + '/api/v1/';
 export const api_url_admin = BASE_URL + '/api/v1/dashboard/admin/';
@@ -9,6 +9,7 @@ export const MAP_API_KEY = 'AIzaSyAg3aYfrmogsYEuEJXnHE8yHLbuaakiZgo';
 export const export_url = BASE_URL + '/storage/';
 export const example = BASE_URL + '/';
 export const defaultCenter = { lat: 40.7127281, lng: -74.0060152 };
+
 
 export const VAPID_KEY = '';
 export const API_KEY = 'AIzaSyDLov3GUpZYZ7EWokOYh-fe_9uz6LYxwfU';
