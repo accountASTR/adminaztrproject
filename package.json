@@ -57,12 +57,21 @@
     "serve": "^14.2.3",
     "web-vitals": "^2.1.4"
   },
+
+ 
+
   "scripts": {
-    "start": "serve -s build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "serve": "serve -s build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+}
+,
+
+
+
+
   "eslintConfig": {
     "extends": [
       "react-app",
