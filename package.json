@@ -2,6 +2,7 @@
   "name": "uzmart",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://adminaztrproject-b332c3269318.herokuapp.com/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@babel/runtime": "^7.18.0",
@@ -53,10 +54,11 @@
     "redux-persist": "^6.0.0",
     "rive-react": "^3.0.35",
     "sass": "^1.75.0",
+    "serve": "^14.2.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
