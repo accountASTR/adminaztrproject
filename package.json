@@ -29,6 +29,7 @@
     "idb-keyval": "^6.2.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.4",
+    "node-fetch": "^2.7.0",
     "qrcode.react": "^3.1.0",
     "qs": "^6.11.0",
     "react": "^16.0.0",
@@ -57,21 +58,13 @@
     "serve": "^14.2.3",
     "web-vitals": "^2.1.4"
   },
-
- 
-
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "serve": "serve -s build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-}
-,
-
-
-
-
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "serve": "serve -s build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
